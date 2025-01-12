@@ -58,4 +58,6 @@ public class UserService implements UserDetailsService {
 		User entity = authenticated();
 		return new UserDTO(entity);
 	}
+
+
 }
