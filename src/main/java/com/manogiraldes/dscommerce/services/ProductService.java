@@ -1,13 +1,13 @@
 package com.manogiraldes.dscommerce.services;
 
-import com.devsuperior.dscommerce.dto.CategoryDTO;
-import com.devsuperior.dscommerce.dto.ProductDTO;
-import com.devsuperior.dscommerce.dto.ProductMinDTO;
-import com.devsuperior.dscommerce.entities.Category;
-import com.devsuperior.dscommerce.entities.Product;
-import com.devsuperior.dscommerce.repositories.ProductRepository;
-import com.devsuperior.dscommerce.services.exceptions.DatabaseException;
-import com.devsuperior.dscommerce.services.exceptions.ResourceNotFoundException;
+import com.manogiraldes.dscommerce.dto.CategoryDTO;
+import com.manogiraldes.dscommerce.dto.ProductDTO;
+import com.manogiraldes.dscommerce.dto.ProductMinDTO;
+import com.manogiraldes.dscommerce.entities.Category;
+import com.manogiraldes.dscommerce.entities.Product;
+import com.manogiraldes.dscommerce.repositories.ProductRepository;
+import com.manogiraldes.dscommerce.services.exceptions.DatabaseException;
+import com.manogiraldes.dscommerce.services.exceptions.ResourceNotFoundException;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;

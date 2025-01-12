@@ -1,12 +1,12 @@
 package com.manogiraldes.dscommerce.services;
 
-import com.devsuperior.dscommerce.dto.OrderDTO;
-import com.devsuperior.dscommerce.dto.OrderItemDTO;
-import com.devsuperior.dscommerce.entities.*;
-import com.devsuperior.dscommerce.repositories.OrderItemRepository;
-import com.devsuperior.dscommerce.repositories.OrderRepository;
-import com.devsuperior.dscommerce.repositories.ProductRepository;
-import com.devsuperior.dscommerce.services.exceptions.ResourceNotFoundException;
+import com.manogiraldes.dscommerce.dto.OrderDTO;
+import com.manogiraldes.dscommerce.dto.OrderItemDTO;
+import com.manogiraldes.dscommerce.entities.*;
+import com.manogiraldes.dscommerce.repositories.OrderItemRepository;
+import com.manogiraldes.dscommerce.repositories.OrderRepository;
+import com.manogiraldes.dscommerce.repositories.ProductRepository;
+import com.manogiraldes.dscommerce.services.exceptions.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

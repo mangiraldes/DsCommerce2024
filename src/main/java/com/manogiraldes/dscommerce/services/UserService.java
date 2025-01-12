@@ -1,10 +1,10 @@
 package com.manogiraldes.dscommerce.services;
 
-import com.devsuperior.dscommerce.dto.UserDTO;
-import com.devsuperior.dscommerce.entities.Role;
-import com.devsuperior.dscommerce.entities.User;
-import com.devsuperior.dscommerce.projections.UserDetailsProjection;
-import com.devsuperior.dscommerce.repositories.UserRepository;
+import com.manogiraldes.dscommerce.dto.UserDTO;
+import com.manogiraldes.dscommerce.entities.Role;
+import com.manogiraldes.dscommerce.entities.User;
+import com.manogiraldes.dscommerce.projections.UserDetailsProjection;
+import com.manogiraldes.dscommerce.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
