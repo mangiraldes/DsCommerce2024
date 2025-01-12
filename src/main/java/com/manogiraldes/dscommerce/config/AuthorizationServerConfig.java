@@ -1,8 +1,8 @@
 package com.manogiraldes.dscommerce.config;
 
-import com.devsuperior.dscommerce.config.customgrant.CustomPasswordAuthenticationConverter;
-import com.devsuperior.dscommerce.config.customgrant.CustomPasswordAuthenticationProvider;
-import com.devsuperior.dscommerce.config.customgrant.CustomUserAuthorities;
+import com.manogiraldes.dscommerce.config.customgrant.CustomPasswordAuthenticationConverter;
+import com.manogiraldes.dscommerce.config.customgrant.CustomPasswordAuthenticationProvider;
+import com.manogiraldes.dscommerce.config.customgrant.CustomUserAuthorities;
 import com.nimbusds.jose.jwk.JWKSet;
 import com.nimbusds.jose.jwk.RSAKey;
 import com.nimbusds.jose.jwk.source.JWKSource;
