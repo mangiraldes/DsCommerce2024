@@ -30,6 +30,7 @@ public class ProductDTO {
         this.description = description;
         this.price = price;
         this.imgUrl = imgUrl;
+
     }
 
     public ProductDTO(Product entity) {
